@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ProductoListComponent } from './product/producto-list/producto-list.component';
 import { ProductoFilterPipe } from './product/producto-filter.pipe';
 import { EjemploComponent } from './formularios/ejemplo/ejemplo.component';
+import { DistanciaComponent } from './formularios/distancia/distancia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductoListComponent,
     ProductoFilterPipe,
-    EjemploComponent
+    EjemploComponent,
+    DistanciaComponent
   ],
   imports: [
     BrowserModule,
